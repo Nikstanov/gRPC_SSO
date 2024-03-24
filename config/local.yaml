@@ -1,0 +1,12 @@
+env: "local"
+storage_path: "/"
+token_ttl: 1h
+grpc:
+  port: 8081
+  timeout: 10m
+database:
+  user: "admin"
+  password: "admin"
+  db: "postgres"
+  port: 5432
+  addr: "postgres"
